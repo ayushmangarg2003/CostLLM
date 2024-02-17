@@ -9,9 +9,9 @@ HelpDEV, an AI-powered tool, forecasts LLM project costs and timelines, addressi
     Time : Hours
 
 # Factors Considered in V1 
--> Product Description (Text - 250 Words)
--> Complexity of Project (Low, Medium, High)
--> Team Size 
--> Team Experience (Beginner, Intermediate, Experts)
--> LLM to be used
+-> Product Description (Text - 250 Words)  
+-> Complexity of Project (Low, Medium, High)   
+-> Team Size (Number of People)    
+-> Team Experience (Beginner, Intermediate, Experts)   
+-> LLM to be used   
 
