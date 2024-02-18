@@ -22,12 +22,12 @@ prod_desc = st.text_input("Enter Product Description")
 complexity = st.selectbox('What is complexity of Project?', ('Low', 'Medium', 'High'))
 team_size = st.number_input("Enter Team Size")
 experience = st.selectbox('What is Team Experience?', ('Beginner', 'Intermediate', 'Expert'))
-llm_used = st.text_input("Which LLM is being Used")
+llm_used = st.selectbox('Which LLM is being Used', ('Gemini-Pro','Gemini-Vision-Pro','GPT3.5', 'GPT4', 'Llama2'))
 
 submit = st.button("Get Estimate")
 
-input_prompt= """
-You are an expert project manager and you have a great experience with LLMs, your new job is to predict the cost and time required for building a new product provided the following details
+input_prompt= f"""
+You are an expert project manager and you have a great experience with LLMs, your new job is to predict the cost and time required for building a new product with the following details
         - Product Description = {prod_desc}
         - Project complexity = {complexity}
         - Team Size = {team_size}
@@ -36,8 +36,8 @@ You are an expert project manager and you have a great experience with LLMs, you
 
         You have to return Estimated Cost in Rupees and Estimated Time in Hours in format 
         Cost : 
+        </br>
         Time :
-
 """
 
 if submit:

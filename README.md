@@ -12,6 +12,9 @@ HelpDEV, an AI-powered tool, forecasts LLM project costs and timelines, addressi
 -> Product Description (Text - 250 Words)
 -> Complexity of Project (Low, Medium, High)
 -> Team Size 
--> Team Experience (Beginner, Intermediate, Experts)
+-> Team Experience (Beginner, Intermediate, Expert)
 -> LLM to be used
 
+# Tech Stack
+LLM Used :- Gemini Pro
+Frontend :- Streamlit 
